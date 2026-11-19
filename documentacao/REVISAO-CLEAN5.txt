@@ -1,0 +1,12 @@
+REVISÃO 2026-11-19 — CLEAN 5
+
+- Janelas móveis: altura definida em 90% da área visível, cabeçalho fixo e corpo com rolagem; redimensionamento acompanha orientação e área útil do navegador. Corrige a configuração de flex que comprimia o conteúdo nos prints de iOS enviados pelo usuário.
+- Faixa inferior compacta, dez miniaturas centralizadas quando cabem e rolagem horizontal nas telas intermediárias. Botão central alterna entre recolher e mostrar miniaturas, com transição suave.
+- Removidos da faixa: título, contagem, ícone de ambientes, visita guiada e controles adicionais. Funções continuam no menu principal.
+- Área reservada ao menu lateral: nenhum cruzamento com a faixa inferior.
+- Título, descrição e link do ambiente aparecem por quatro segundos a cada navegação e desaparecem suavemente. Informações sempre disponíveis em Menu > Sobre este ambiente e no botão mobile Sobre o espaço.
+- Áudio, botão mutar, efeito glass e 3D mantidos. VR continua somente no menu mobile e depende da integração panorâmica real.
+
+Verificação: navegador Chromium emulado. Painéis sem sobreposição e sem transbordamento horizontal em 320×568, 375×667, 390×710, 844×390, 1024×768, 768×1024, 1280×720, 1440×900, 2560×1440 e 1920×480. Janelas móveis com conteúdo e rolagem em 320×568, 390×710, 844×390, 390×420 e 390×844. Busca por café, troca de ambiente, fechar/reabrir, botão de miniaturas e tempo da legenda conferidos. Mapa com altura útil e janela de 90% conferidos.
+
+Limite da validação: não houve acesso a iPhone físico/Safari nem a headset. A correção foi direcionada à falha demonstrada pelos prints; confirmação final no aparelho do usuário permanece pendente.
