@@ -48,3 +48,37 @@
 @media(max-width:360px){.mg-brand img{width:24px;height:35px}.mg-brand-name{font-size:19px}.mg-brand small{font-size:8px;letter-spacing:.7px}.mg-brand-separator{display:none}.mg-brand{gap:8px}}
 
 @media(max-width:700px),(max-height:500px) and (max-width:1100px){.mg-unit-long{display:none}.mg-brand small{font-size:12px;letter-spacing:1.2px}}
+
+/* Refinamento de movimento: aceleração progressiva e relevo tridimensional. */
+#mg-tour-app button,#mg-tour-app a{
+ transition:transform .48s cubic-bezier(.16,.78,.22,1),box-shadow .48s cubic-bezier(.16,.78,.22,1),background-color .42s ease,border-color .42s ease,color .34s ease,filter .4s ease;
+ transform-origin:center;backface-visibility:hidden;
+}
+.mg-glass{transition:background-color .5s ease,border-color .5s ease,box-shadow .6s ease}
+.mg-dialog{transform-origin:50% 65%;animation:mg-dialog-in .46s cubic-bezier(.16,.78,.22,1)}
+.mg-dialog.is-closing{animation:mg-dialog-out .28s cubic-bezier(.4,0,.6,1) forwards}
+.mg-thumb .mg-photo{transition:filter .55s ease,background-position .6s ease}
+.mg-hotspot .mg-orb{transition:background-color .45s ease,box-shadow .5s ease}
+.mg-menu-list .mg-vr-mobile-only{display:none}
+@media(max-width:700px),(max-height:500px) and (max-width:1100px){.mg-menu-list .mg-vr-mobile-only{display:flex}}
+@media(hover:hover) and (pointer:fine){
+ .mg-glass:hover{border-color:rgba(203,238,255,.4);box-shadow:0 16px 45px #00132c38,inset 0 1px 0 #ffffff1c}
+ #mg-tour-app button:not(:disabled):hover,#mg-tour-app a:hover{
+  transform:perspective(650px) translateY(-3px) rotateX(5deg) scale(1.018);
+  box-shadow:0 7px 0 -5px #004173,0 12px 24px -7px #0008,inset 0 1px 0 #ffffff32;
+  filter:brightness(1.07);
+ }
+ #mg-tour-app .mg-rail button:hover{transform:perspective(500px) translateY(-2px) translateX(2px) rotateY(-7deg) scale(1.035);background:linear-gradient(145deg,#00a8e53b,#002f6270);box-shadow:-3px 0 0 -1px #66d9ff50,0 9px 18px #0005,inset 0 1px 0 #ffffff30}
+ #mg-tour-app .mg-thumb:hover,#mg-tour-app .mg-scene-card:hover{transform:perspective(800px) translateY(-3px) rotateX(3deg) scale(1.012)}
+ #mg-tour-app .mg-close:hover{transform:perspective(500px) translateY(-2px) rotateX(7deg) rotate(90deg) scale(1.04);box-shadow:0 9px 20px #0005,inset 0 1px 0 #ffffff50}
+ #mg-tour-app .mg-hotspot:hover{transform:perspective(600px) translateY(-4px) rotateX(4deg);box-shadow:none}
+ #mg-tour-app button:not(:disabled):hover:active,#mg-tour-app a:hover:active{transform:perspective(650px) translateY(1px) rotateX(-2deg) scale(.975);box-shadow:inset 0 2px 8px #00152966;transition-duration:.12s}
+}
+@keyframes mg-dialog-in{from{opacity:0;transform:perspective(1200px) translateY(24px) rotateX(3deg) scale(.975)}to{opacity:1;transform:perspective(1200px) translateY(0) rotateX(0) scale(1)}}
+@keyframes mg-dialog-out{from{opacity:1;transform:perspective(1200px) translateY(0) rotateX(0) scale(1)}to{opacity:0;transform:perspective(1200px) translateY(14px) rotateX(-1deg) scale(.985)}}
+@media(prefers-reduced-motion:reduce){#mg-tour-app button,#mg-tour-app a,#mg-tour-app .mg-dialog,#mg-tour-app .mg-glass{animation:none!important;transition:none!important;transform:none!important}}
+
+/* Movimento reduzido mantém suavidade em cores e sombras, sem deslocamento. */
+@media(prefers-reduced-motion:reduce){
+ #mg-tour-app button,#mg-tour-app a,#mg-tour-app .mg-glass{transition:background-color .32s ease,border-color .32s ease,color .32s ease,box-shadow .36s ease,filter .32s ease!important;transform:none!important}
+}

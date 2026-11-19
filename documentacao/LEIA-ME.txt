@@ -40,8 +40,11 @@ Os contatos foram conferidos no site oficial em 19/11/2026. Imagens, textos come
 
 ATUALIZAÇÕES SOLICITADAS
 Trilha instrumental original com ritmo de 108 BPM, teclas, baixo e percussão leve. Volume inicial de 14%, controle de volume de 0 a 30% no menu e botão de ativar/mutar sempre disponível no cabeçalho. Começa desligada e depende de ação do visitante. Duração aproximada de 35,56 segundos com repetição. Ao sair da aba, o som pausa.
-VR: botão Oculus / Meta Quest no menu, e atalho na barra desktop. Na demonstração abre uma janela explicativa, sem simular uma sessão de VR. Em config.js, vrUrl permanece null. Após produzir o tour real e validar o botão VR nativo, preencher com a URL HTTPS final do tour com parâmetro ?vr, conforme documentação oficial. Usar o mesmo projeto da unidade. A UI HTML externa não é a interface imersiva do headset: a navegação VR é produzida pelo motor 3DVista.
+VR: botão Oculus / Meta Quest somente no menu mobile; removido do desktop a pedido do usuário. Na demonstração abre uma janela explicativa, sem simular uma sessão de VR. Em config.js, vrUrl permanece null. Após produzir o tour real e validar o botão VR nativo, preencher com a URL HTTPS final do tour com parâmetro ?vr, conforme documentação oficial. Usar o mesmo projeto da unidade. A UI HTML externa não é a interface imersiva do headset: a navegação VR é produzida pelo motor 3DVista.
 Documentação oficial consultada em 19/11/2026:
 https://www.3dvista.com/en/kb/faqs/vr/which-vtpro-features-work-in-vr-and-which-dont/
 https://www.3dvista.com/en/blog/how-to-see-your-tours-offline-on-meta-quest-2-from-the-browser/
 Publicação solicitada em GitHub Pages. Não foi criado arquivo ZIP. O projeto Sites iniciado anteriormente permanece sem publicação e não é o endereço de entrega.
+
+REFINO FINAL DE MOVIMENTO
+Botões recebem relevo 3D por sombra, leve inclinação e elevação em dispositivos com mouse. Retorno gradual e transições mais longas. Abertura e fechamento de janelas refinados. Em preferência de movimento reduzido, preserva-se a suavidade de cores e sombras, sem deslocamentos.

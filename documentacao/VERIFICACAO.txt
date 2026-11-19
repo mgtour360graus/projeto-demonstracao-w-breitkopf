@@ -11,3 +11,5 @@ Botão VR abriu a explicação da etapa imersiva e não iniciou falsa sessão de
 HTML único abriu e executou sem depender de arquivos de imagens/áudio externos.
 Capa JPG conferida: 1920×1080, RGB, 106383 bytes; aprovação pendente.
 Limites: emulação Chromium; sem teste físico de celular, Safari, Oculus/Meta Quest ou integração com o runtime real 3DVista.
+
+Revisão de movimento: duração de abertura observada 0,46s; botões com transição transform/sombra de 0,48s e matriz 3D confirmada no hover. Movimento reduzido mantém transições de cor/sombra e remove deslocamentos. VR invisível no desktop, visível no menu mobile.

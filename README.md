@@ -4,9 +4,10 @@ Apresentação de tour personalizado para a unidade de Rio do Sul, criada por MG
 
 - Dez ambientes, busca, filtros, informações por espaço e contatos da unidade.
 - Desktop com menu em vidro e miniaturas; mobile com imagem livre e funções em janelas sob demanda.
+- Botões com relevo 3D, sombras e movimentos suaves no desktop; redução de movimento respeitada.
 - Mapa em janela de 90% da largura e altura disponíveis.
 - Trilha instrumental original, animada, com volume baixo e botão de ativar/mutar.
-- Botão VR — Oculus / Meta Quest preparado na interface; a imersão depende dos panoramas reais e da integração com o 3DVista.
+- Botão VR — Oculus / Meta Quest preparado somente no menu mobile; a imersão depende dos panoramas reais e da integração com o 3DVista.
 
 ## Abrir e hospedar
 

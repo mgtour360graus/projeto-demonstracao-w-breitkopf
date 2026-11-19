@@ -29,3 +29,5 @@ CAPA
 Preset MG Tour 1920×1080, sem alegar exigência universal do 3DVista. Composição com marca original e cores, porque os anexos não comprovam uma fachada real da unidade. Aprovação da capa separada da aprovação da interface.
 
 Ajuste adicional: trilha instrumental animada original a 108 BPM, em volume baixo, com botão de mute. Botão VR — Oculus / Meta Quest disponível na interface; imersão real pendente de panoramas e integração nativa.
+
+Refino solicitado: transições suaves em todas as janelas e botões, relevo 3D ao passar o mouse, destaque progressivo no menu lateral. Botão VR removido de toda a interface desktop e preservado no menu mobile.
