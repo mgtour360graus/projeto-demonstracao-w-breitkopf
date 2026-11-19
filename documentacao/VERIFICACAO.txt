@@ -1,0 +1,13 @@
+VERIFICAÇÃO — W. BREITKOPF — 19/11/2026
+Prévia HTML independente e interface em arquivos separados.
+17 dimensões/orientações entre 320 e 2560 pixels: sem overflow horizontal, sem sobreposição entre marca e controles, sem colisão do título com a base. Evidência em matriz-responsiva.json.
+Dez destinos selecionados pela interface: título e miniatura ativa sincronizados, uma miniatura selecionada por vez.
+Busca por cafe encontrou Coffee Lake Café sem exigir acento. Busca vazia/sem resultado exibiu mensagem apropriada. Filtro Atendimento retornou café, espera e gerência.
+Escape fechou a janela e devolveu foco ao botão Abrir menu. Botão fechar e reabertura verificados.
+Google Maps carregou no iframe fornecido. Medição em 390×844: janela 351×759,59, equivalendo a 90%×90%, rodapé e fechamento acessíveis.
+Links de três WhatsApps, telefone e redes conferidos no DOM com os contatos do site. Nenhuma mensagem enviada.
+Áudio MP3 original de 35,56s decodificado no navegador. Botão Ativar som iniciou reprodução; o botão mudou para Mutar som. Mutar pausou a reprodução. Loop habilitado; volume inicial definido como 0,14.
+Botão VR abriu a explicação da etapa imersiva e não iniciou falsa sessão de headset.
+HTML único abriu e executou sem depender de arquivos de imagens/áudio externos.
+Capa JPG conferida: 1920×1080, RGB, 106383 bytes; aprovação pendente.
+Limites: emulação Chromium; sem teste físico de celular, Safari, Oculus/Meta Quest ou integração com o runtime real 3DVista.

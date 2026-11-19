@@ -27,5 +27,20 @@
   },
   "address": "Rodovia BR 470, km 135, nº 1100, Bairro Rainha, Rio do Sul/SC, CEP 89162-020",
   "hours": "Segunda a sexta, das 8h às 18h",
-  "cover": "Logotipo original e cores. Fachada real de Rio do Sul não confirmada; não se apresenta ilustração como fachada real."
+  "cover": "Logotipo original e cores. Fachada real de Rio do Sul não confirmada; não se apresenta ilustração como fachada real.",
+  "soundtrack": {
+    "title": "Caminhos tranquilos — versão ambiente animada",
+    "origin": "Composição instrumental original gerada nesta tarefa, sem amostras externas.",
+    "bpm": 108,
+    "duration_seconds": 35.56,
+    "default_volume": 0.14,
+    "autoplay": false
+  },
+  "vr": {
+    "state": "interface_prepared_not_integrated",
+    "sources": [
+      "https://www.3dvista.com/en/kb/faqs/vr/which-vtpro-features-work-in-vr-and-which-dont/",
+      "https://www.3dvista.com/en/blog/how-to-see-your-tours-offline-on-meta-quest-2-from-the-browser/"
+    ]
+  }
 }

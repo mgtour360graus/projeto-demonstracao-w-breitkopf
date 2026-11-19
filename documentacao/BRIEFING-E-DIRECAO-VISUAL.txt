@@ -15,7 +15,7 @@ DIREÇÃO VISUAL
 Conceito: visita à concessionária com a imagem em primeiro plano, navegação por setores e acesso direto à equipe da unidade.
 Paleta: azul #002F62 e ciano #00A8E5 encontrados no CSS oficial, branco para contraste; azul profundo #06182B é apoio criado para transparências legíveis.
 Desktop: cabeçalho horizontal com marca, trilho lateral compacto, título sobre a imagem e miniaturas horizontais na base. Hotspots ilustrativos indicam destinos possíveis; não afirmam coordenadas físicas.
-Mobile revisado a pedido do usuário: apenas três controles na vista principal — menu no topo, Ambientes e Sobre o espaço na base. Miniaturas, descrição, mapa, contatos, redes e visita guiada ficam nas janelas. Nenhum trilho lateral, conjunto de hotspots ou faixa de miniaturas permanece sobre a cena mobile.
+Mobile revisado a pedido do usuário: quatro controles na vista principal — menu e ativar/mutar som no topo, Ambientes e Sobre o espaço na base. Miniaturas, descrição, mapa, contatos, redes e visita guiada ficam nas janelas. Nenhum trilho lateral, conjunto de hotspots ou faixa de miniaturas permanece sobre a cena mobile.
 Paisagem curta: título à esquerda e controles compactos à direita. Áreas seguras respeitadas.
 Tipografia: fontes do sistema, sem carregamento externo. A presença de W.Breitkopf é textual, coerente com o site; o arquivo Volkswagen original é preservado.
 Navegação: uma única configuração para dez ambientes, divididos em Caminhões, Atendimento e Serviços. Busca ignora acentos. Apenas uma janela aberta por vez.
@@ -27,3 +27,5 @@ Nenhum outro projeto do acervo foi aberto ou modificado nesta tarefa. Não se af
 
 CAPA
 Preset MG Tour 1920×1080, sem alegar exigência universal do 3DVista. Composição com marca original e cores, porque os anexos não comprovam uma fachada real da unidade. Aprovação da capa separada da aprovação da interface.
+
+Ajuste adicional: trilha instrumental animada original a 108 BPM, em volume baixo, com botão de mute. Botão VR — Oculus / Meta Quest disponível na interface; imersão real pendente de panoramas e integração nativa.

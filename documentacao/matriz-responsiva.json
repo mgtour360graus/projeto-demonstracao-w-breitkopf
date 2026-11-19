@@ -1,121 +1,138 @@
 [
   {
+    "headerNoOverlap": true,
     "height": 568,
     "overflow": false,
     "titleAndDockSeparate": true,
-    "visibleButtons": 3,
+    "visibleButtons": 4,
     "width": 320
   },
   {
+    "headerNoOverlap": true,
     "height": 640,
     "overflow": false,
     "titleAndDockSeparate": true,
-    "visibleButtons": 3,
+    "visibleButtons": 4,
     "width": 360
   },
   {
+    "headerNoOverlap": true,
     "height": 667,
     "overflow": false,
     "titleAndDockSeparate": true,
-    "visibleButtons": 3,
+    "visibleButtons": 4,
     "width": 375
   },
   {
+    "headerNoOverlap": true,
     "height": 844,
     "overflow": false,
     "titleAndDockSeparate": true,
-    "visibleButtons": 3,
+    "visibleButtons": 4,
     "width": 390
   },
   {
+    "headerNoOverlap": true,
     "height": 896,
     "overflow": false,
     "titleAndDockSeparate": true,
-    "visibleButtons": 3,
+    "visibleButtons": 4,
     "width": 414
   },
   {
+    "headerNoOverlap": true,
     "height": 932,
     "overflow": false,
     "titleAndDockSeparate": true,
-    "visibleButtons": 3,
+    "visibleButtons": 4,
     "width": 430
   },
   {
+    "headerNoOverlap": true,
     "height": 800,
     "overflow": false,
     "titleAndDockSeparate": true,
-    "visibleButtons": 3,
+    "visibleButtons": 4,
     "width": 600
   },
   {
+    "headerNoOverlap": true,
     "height": 1024,
     "overflow": false,
     "titleAndDockSeparate": true,
-    "visibleButtons": 22,
+    "visibleButtons": 24,
     "width": 768
   },
   {
+    "headerNoOverlap": true,
     "height": 1180,
     "overflow": false,
     "titleAndDockSeparate": true,
-    "visibleButtons": 22,
+    "visibleButtons": 24,
     "width": 820
   },
   {
+    "headerNoOverlap": true,
     "height": 768,
     "overflow": false,
     "titleAndDockSeparate": true,
-    "visibleButtons": 22,
+    "visibleButtons": 24,
     "width": 1024
   },
   {
+    "headerNoOverlap": true,
     "height": 720,
     "overflow": false,
     "titleAndDockSeparate": true,
-    "visibleButtons": 23,
+    "visibleButtons": 25,
     "width": 1280
   },
   {
+    "headerNoOverlap": true,
     "height": 900,
     "overflow": false,
     "titleAndDockSeparate": true,
-    "visibleButtons": 23,
+    "visibleButtons": 25,
     "width": 1440
   },
   {
+    "headerNoOverlap": true,
     "height": 1080,
     "overflow": false,
     "titleAndDockSeparate": true,
-    "visibleButtons": 23,
+    "visibleButtons": 25,
     "width": 1920
   },
   {
+    "headerNoOverlap": true,
     "height": 1440,
     "overflow": false,
     "titleAndDockSeparate": true,
-    "visibleButtons": 23,
+    "visibleButtons": 25,
     "width": 2560
   },
   {
+    "headerNoOverlap": true,
     "height": 375,
     "overflow": false,
     "titleAndDockSeparate": true,
-    "visibleButtons": 3,
+    "visibleButtons": 4,
     "width": 812
   },
   {
+    "headerNoOverlap": true,
     "height": 320,
     "overflow": false,
     "titleAndDockSeparate": true,
-    "visibleButtons": 3,
+    "visibleButtons": 4,
     "width": 667
   },
   {
+    "headerNoOverlap": true,
     "height": 430,
     "overflow": false,
     "titleAndDockSeparate": true,
-    "visibleButtons": 3,
+    "visibleButtons": 4,
     "width": 932
   }
 ]
