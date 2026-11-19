@@ -1,0 +1,29 @@
+W. BREITKOPF — RIO DO SUL | BRIEFING E DIREÇÃO VISUAL
+Versão 1.0.0 — 19/11/2026
+
+OBJETIVO
+Apresentação HTML para o cliente analisar a proposta visual de tour personalizado. Prévia com fotografias/ilustrações estáticas fornecidas, com transições. Ainda não é o tour panorâmico real.
+
+INFORMAÇÕES DO BRIEFING
+Recebido: empresa W. Breitkopf; unidade Rio do Sul; site oficial; referência de tour do mesmo grupo; Instagram, Facebook e TikTok; iframe da localização; dez ambientes; pedido de transparências, vidro, movimentos suaves, bordas nas janelas, responsividade e mapa em janela de 90%.
+Recebido por pesquisa autorizada: paleta do site, marca Volkswagen usada no site, endereço, telefone e três WhatsApps de Rio do Sul.
+Recebido: duas pranchas de imagens anexadas pelo usuário, usadas como referências ilustrativas. Originais preservados. O recorte visual ocorre no navegador.
+Aguardando resposta/material: manual de marca; arquivo vetorial/PDF próprio de W. Breitkopf, caso desejado; LinkedIn, Pinterest e YouTube; foto real confirmada da fachada de Rio do Sul; panoramas; versão do 3DVista; exportação real; ordem da playlist; planta, caso necessária para uma futura planta física.
+Não tem: nenhum desses campos foi declarado inexistente. As pendências não impedem esta proposta visual solicitada pelo usuário. Não foram inventados contatos, redes adicionais, planta ou arquitetura real.
+
+DIREÇÃO VISUAL
+Conceito: visita à concessionária com a imagem em primeiro plano, navegação por setores e acesso direto à equipe da unidade.
+Paleta: azul #002F62 e ciano #00A8E5 encontrados no CSS oficial, branco para contraste; azul profundo #06182B é apoio criado para transparências legíveis.
+Desktop: cabeçalho horizontal com marca, trilho lateral compacto, título sobre a imagem e miniaturas horizontais na base. Hotspots ilustrativos indicam destinos possíveis; não afirmam coordenadas físicas.
+Mobile revisado a pedido do usuário: apenas três controles na vista principal — menu no topo, Ambientes e Sobre o espaço na base. Miniaturas, descrição, mapa, contatos, redes e visita guiada ficam nas janelas. Nenhum trilho lateral, conjunto de hotspots ou faixa de miniaturas permanece sobre a cena mobile.
+Paisagem curta: título à esquerda e controles compactos à direita. Áreas seguras respeitadas.
+Tipografia: fontes do sistema, sem carregamento externo. A presença de W.Breitkopf é textual, coerente com o site; o arquivo Volkswagen original é preservado.
+Navegação: uma única configuração para dez ambientes, divididos em Caminhões, Atendimento e Serviços. Busca ignora acentos. Apenas uma janela aberta por vez.
+Acabamento: vidro azul com desfoque, bordas claras, transições de abertura e fechamento, estados de foco e seleção. Preferência por movimento reduzido atendida. Animações não dependem de bibliotecas externas.
+
+COMPARAÇÃO CONSULTADA
+Tour do grupo fornecido pelo usuário: estrutura predominantemente clara, catálogo de modelos e navegação lateral vertical. Esta proposta adota cena imersiva, menu azul translúcido, acesso por ambientes e faixa horizontal de miniaturas, com composição mobile própria.
+Nenhum outro projeto do acervo foi aberto ou modificado nesta tarefa. Não se afirma comparação com acervo não consultado nem exclusividade mundial.
+
+CAPA
+Preset MG Tour 1920×1080, sem alegar exigência universal do 3DVista. Composição com marca original e cores, porque os anexos não comprovam uma fachada real da unidade. Aprovação da capa separada da aprovação da interface.

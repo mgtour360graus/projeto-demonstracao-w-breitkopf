@@ -1,0 +1,121 @@
+[
+  {
+    "height": 568,
+    "overflow": false,
+    "titleAndDockSeparate": true,
+    "visibleButtons": 3,
+    "width": 320
+  },
+  {
+    "height": 640,
+    "overflow": false,
+    "titleAndDockSeparate": true,
+    "visibleButtons": 3,
+    "width": 360
+  },
+  {
+    "height": 667,
+    "overflow": false,
+    "titleAndDockSeparate": true,
+    "visibleButtons": 3,
+    "width": 375
+  },
+  {
+    "height": 844,
+    "overflow": false,
+    "titleAndDockSeparate": true,
+    "visibleButtons": 3,
+    "width": 390
+  },
+  {
+    "height": 896,
+    "overflow": false,
+    "titleAndDockSeparate": true,
+    "visibleButtons": 3,
+    "width": 414
+  },
+  {
+    "height": 932,
+    "overflow": false,
+    "titleAndDockSeparate": true,
+    "visibleButtons": 3,
+    "width": 430
+  },
+  {
+    "height": 800,
+    "overflow": false,
+    "titleAndDockSeparate": true,
+    "visibleButtons": 3,
+    "width": 600
+  },
+  {
+    "height": 1024,
+    "overflow": false,
+    "titleAndDockSeparate": true,
+    "visibleButtons": 22,
+    "width": 768
+  },
+  {
+    "height": 1180,
+    "overflow": false,
+    "titleAndDockSeparate": true,
+    "visibleButtons": 22,
+    "width": 820
+  },
+  {
+    "height": 768,
+    "overflow": false,
+    "titleAndDockSeparate": true,
+    "visibleButtons": 22,
+    "width": 1024
+  },
+  {
+    "height": 720,
+    "overflow": false,
+    "titleAndDockSeparate": true,
+    "visibleButtons": 23,
+    "width": 1280
+  },
+  {
+    "height": 900,
+    "overflow": false,
+    "titleAndDockSeparate": true,
+    "visibleButtons": 23,
+    "width": 1440
+  },
+  {
+    "height": 1080,
+    "overflow": false,
+    "titleAndDockSeparate": true,
+    "visibleButtons": 23,
+    "width": 1920
+  },
+  {
+    "height": 1440,
+    "overflow": false,
+    "titleAndDockSeparate": true,
+    "visibleButtons": 23,
+    "width": 2560
+  },
+  {
+    "height": 375,
+    "overflow": false,
+    "titleAndDockSeparate": true,
+    "visibleButtons": 3,
+    "width": 812
+  },
+  {
+    "height": 320,
+    "overflow": false,
+    "titleAndDockSeparate": true,
+    "visibleButtons": 3,
+    "width": 667
+  },
+  {
+    "height": 430,
+    "overflow": false,
+    "titleAndDockSeparate": true,
+    "visibleButtons": 3,
+    "width": 932
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-11-19",
+  "client": "W. Breitkopf — Rio do Sul",
+  "website": "https://www.wbreitkopf.com.br/",
+  "palette_source": "https://www.wbreitkopf.com.br/wp-content/themes/area-structure/style.css",
+  "palette": {
+    "institutional": "#002F62",
+    "accent": "#00A8E5",
+    "white": "#FFFFFF",
+    "glass_support": "#06182B"
+  },
+  "logo_source": "https://www.wbreitkopf.com.br/wp-content/uploads/2023/08/logo-vw-1-4.png",
+  "logo_note": "Arquivo original Volkswagen Caminhões e Ônibus utilizado no site. W.Breitkopf é apresentado como nome tipográfico, assim como no site, e não como novo logotipo vetorial.",
+  "images": {
+    "ambientes-externos.png": "Primeiro anexo fornecido pelo usuário. Ilustração de ambientes, sem confirmação de fotografia real da unidade.",
+    "ambientes-internos.png": "Segundo anexo fornecido pelo usuário. Ilustração de ambientes, sem confirmação de fotografia real da unidade."
+  },
+  "reference_tour": "https://www.wbreitkopf.com.br/tour/",
+  "reference_scope": "Referência de cores e identidade do grupo. Não corresponde à unidade de Rio do Sul. Não foram reutilizados panoramas nem contatos de outra unidade.",
+  "map_source": "Iframe Google Maps fornecido pelo usuário, preservado.",
+  "contacts_source": "Bloco Rio do Sul do site oficial, consultado em 19/11/2026.",
+  "telephone": "+554735251377",
+  "whatsapp": {
+    "vendas": "+5547999225209",
+    "pecas": "+5547999225213",
+    "oficina": "+5547999225214"
+  },
+  "address": "Rodovia BR 470, km 135, nº 1100, Bairro Rainha, Rio do Sul/SC, CEP 89162-020",
+  "hours": "Segunda a sexta, das 8h às 18h",
+  "cover": "Logotipo original e cores. Fachada real de Rio do Sul não confirmada; não se apresenta ilustração como fachada real."
+}

@@ -1,0 +1,47 @@
+W. BREITKOPF — RIO DO SUL | APRESENTAÇÃO DO TOUR
+Versão 1.0.0 — 19/11/2026
+
+PARA ABRIR OU ENVIAR AO CLIENTE
+Abra W-Breitkopf-Rio-do-Sul.html em um navegador moderno. Este arquivo contém as imagens, o estilo e a navegação. Pode ser enviado sozinho, sem a pasta de imagens.
+No computador, basta abrir o arquivo no navegador. Em celulares, a prévia de anexos do aplicativo de mensagens pode não executar HTML: abrir no navegador ou hospedar a pasta site/ em um endereço web é mais confiável.
+Somente o mapa, os links sociais, o site oficial e os contatos externos dependem da internet. Os links de WhatsApp abrem a conversa; nenhuma mensagem é enviada automaticamente.
+
+O QUE ESTÁ DISPONÍVEL
+Dez ambientes: pátio de caminhões; showroom Volkswagen; Coffee Lake Café; sala de espera; doca de peças; área técnica de entregas; peças no showroom; pós-vendas e oficina; sala do gerente; estacionamento do pátio.
+Desktop com miniaturas, menu lateral e atalhos ilustrativos sobre a foto.
+Mobile limpo: menu no topo, botão Ambientes e botão Sobre o espaço. Os demais recursos aparecem sob demanda.
+Pesquisa e categorias de ambientes; informações específicas de cada espaço; percurso por setores; visita guiada; tela cheia quando suportada; contatos da unidade e redes sociais.
+Localização em janela com 90% da largura e 90% da altura da área de navegação, com fechamento visível. O mapa preserva o iframe informado.
+
+ARQUIVOS
+W-Breitkopf-Rio-do-Sul.html — apresentação autônoma.
+site/ — versão em arquivos separados, pronta para hospedagem estática.
+site/mg-tour-skin/ — CSS, interface e configuração dos ambientes.
+site/MAIN-VIEWER-INICIAR.js — ponte candidata para o 3DVista.
+capa/ — HTML editável, JPG 1920×1080 e informações de origem/estado.
+previas/ — capturas e evidências dos testes em navegador.
+FONTES-E-IDENTIDADE.json — origem de cores, marca e contatos.
+BRIEFING-E-DIRECAO-VISUAL.txt — decisões e campos recebidos/pendentes.
+
+INTEGRAÇÃO COM 3DVISTA (APÓS APROVAÇÃO VISUAL)
+1. Trabalhar sobre cópia da exportação real. Preservar o projeto e a exportação originais.
+2. Copiar mg-tour-skin/ e assets/ de site/ para junto do index da exportação.
+3. Preencher nativeIndex em mg-tour-skin/config.js com os índices confirmados da playlist real. Os índices estão intencionalmente nulos para impedir navegação errada.
+4. Colar MAIN-VIEWER-INICIAR.js na ação de inicialização JavaScript do Main Viewer. Conferir GENERAL e MOBILE.
+5. A ponte observa mainPlayList e usa get/set selectedIndex. Essa API precisa ser confirmada na versão e no contexto reais do tour. O carregamento é idempotente e recusa índices ausentes ou duplicados.
+6. Testar panoramas, sincronização da seleção e troca de orientação. A interface de produção não monta as fotos nem os hotspots ilustrativos sobre o motor real.
+7. Aplicar a capa em Thumbnail apenas após aprovação e conferir a exportação.
+Não substituir o index original do 3DVista pelo HTML de apresentação. Os componentes desta skin externa são editados no HTML/CSS/JavaScript/configuração; não são botões individuais na árvore nativa do 3DVista.
+
+LIMITES DESTA ENTREGA
+Proposta visual com imagens ilustrativas do usuário. A integração com panoramas reais ainda não foi realizada, pois não foram fornecidos projeto, exportação ou panoramas.
+Testes responsivos são emulados no Chromium. Não comprovam Safari/iPhone físico, Android físico, VR, WebGL real nem todos os navegadores.
+Os contatos foram conferidos no site oficial em 19/11/2026. Imagens, textos comerciais, acessos finais e capa permanecem sujeitos à análise do cliente.
+
+ATUALIZAÇÕES SOLICITADAS
+Trilha instrumental original com ritmo de 108 BPM, teclas, baixo e percussão leve. Volume inicial de 14%, controle de volume de 0 a 30% no menu e botão de ativar/mutar sempre disponível no cabeçalho. Começa desligada e depende de ação do visitante. Duração aproximada de 35,56 segundos com repetição. Ao sair da aba, o som pausa.
+VR: botão Oculus / Meta Quest no menu, e atalho na barra desktop. Na demonstração abre uma janela explicativa, sem simular uma sessão de VR. Em config.js, vrUrl permanece null. Após produzir o tour real e validar o botão VR nativo, preencher com a URL HTTPS final do tour com parâmetro ?vr, conforme documentação oficial. Usar o mesmo projeto da unidade. A UI HTML externa não é a interface imersiva do headset: a navegação VR é produzida pelo motor 3DVista.
+Documentação oficial consultada em 19/11/2026:
+https://www.3dvista.com/en/kb/faqs/vr/which-vtpro-features-work-in-vr-and-which-dont/
+https://www.3dvista.com/en/blog/how-to-see-your-tours-offline-on-meta-quest-2-from-the-browser/
+Publicação solicitada em GitHub Pages. Não foi criado arquivo ZIP. O projeto Sites iniciado anteriormente permanece sem publicação e não é o endereço de entrega.
